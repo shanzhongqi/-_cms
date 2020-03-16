@@ -13,6 +13,7 @@ import com.xs.cms.service.ChannelService;
 @Controller
 public class ChannelController {
 
+	//ÔÂ¿¼Ìá½»
 	@Resource
 	private ChannelService service;
 	
