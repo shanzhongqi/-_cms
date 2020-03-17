@@ -9,6 +9,11 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
    <package name="com.xs.cms.domain"/>   
  </typeAliases>
  
+ <typeHandlers>
+ 	<typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler"
+ 		javaType="com.xs.cms.domain.ContentType"
+ 	/>
+ </typeHandlers>
  
  <!-- 配置分页助手拦截器 -->
 <plugins>

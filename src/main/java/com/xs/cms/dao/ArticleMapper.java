@@ -38,4 +38,6 @@ public interface ArticleMapper {
 	
 	
 	int update(Article article);
+	
+	List<Article> list();
 }

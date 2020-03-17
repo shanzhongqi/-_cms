@@ -35,6 +35,18 @@ public class Article implements Serializable{
 	private Channel channel;
 	private Category category;
 	private User user;
+	private ContentType contentType;
+	
+	
+	public ContentType getContentType() {
+		return contentType;
+	}
+	public void setContentType(ContentType contentType) {
+		this.contentType = contentType;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 	public Integer getId() {
 		return id;
 	}

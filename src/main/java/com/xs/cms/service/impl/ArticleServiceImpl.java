@@ -41,5 +41,10 @@ public class ArticleServiceImpl implements ArticleService {
 		return dao.update(article);
 	}
 
+	@Override
+	public List<Article> list() {
+		return dao.list();
+	}
+
 
 }

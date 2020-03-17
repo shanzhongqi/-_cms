@@ -6,6 +6,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="keywords" content="告诉浏览器你的网页的关键字是什么">
+<meta name="description" content="告诉浏览器你的网页的主要内容是什么">
+<meta name="robot" content="" >
 <!-- 视窗 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${article.title }</title>

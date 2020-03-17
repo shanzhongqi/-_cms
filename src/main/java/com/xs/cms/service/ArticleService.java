@@ -1,5 +1,7 @@
 package com.xs.cms.service;
 
+import java.util.List;
+
 import com.github.pagehelper.PageInfo;
 import com.xs.cms.domain.Article;
 
@@ -38,4 +40,6 @@ public interface ArticleService {
 	
 	
 	int update(Article article);
+	
+	List<Article> list();
 }

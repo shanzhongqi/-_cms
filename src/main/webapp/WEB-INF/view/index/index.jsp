@@ -159,6 +159,45 @@
 
 			</div>
 			<div class="col-md-3">
+				
+				<!-- 问卷调查 -->
+				<div class="card" style="width: 18rem; margin-top: 10px">
+					<div class="card-header">评选结果</div>
+					<div class="card-body">
+						<c:forEach items="${info2.list }" var="a">
+							<div class="media">
+								<div class="media-body">
+									<p><a href="/voteDo?id=${a.id }" target="_blank">${a.title }</a></p>
+
+								</div>
+							</div>
+							<hr>
+						</c:forEach>
+
+					</div>
+				</div>
+				
+				
+				
+				<!-- 问卷调查 -->
+				<div class="card" style="width: 18rem; margin-top: 10px">
+					<div class="card-header">问卷调查</div>
+					<div class="card-body">
+						<c:forEach items="${info2.list }" var="a">
+							<div class="media">
+								<div class="media-body">
+									<p><a href="/voteDo?id=${a.id }" target="_blank">${a.title }</a></p>
+
+								</div>
+							</div>
+							<hr>
+						</c:forEach>
+
+					</div>
+				</div>
+				
+				
+			
 
 				<div class="card" style="width: 18rem; margin-top: 10px">
 					<div class="card-header">最新文章</div>
